@@ -32,8 +32,8 @@ const defaultState: StateApp = {
   collapsibleIsOpen: {},
   // how proxies are sorted in a group or provider
   proxySortBy: 'Natural',
-  hideUnavailableProxies: false,
-  autoCloseOldConns: false,
+  hideUnavailableProxies: true,
+  autoCloseOldConns: true,
   logStreamingPaused: false,
 };
 
